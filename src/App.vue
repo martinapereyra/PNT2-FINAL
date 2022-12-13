@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Cotizacion msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cotizacion from './components/Cotizacion.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Cotizacion
   }
 }
 </script>
@@ -23,6 +22,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  text-align: left;
   margin-top: 60px;
 }
 </style>
