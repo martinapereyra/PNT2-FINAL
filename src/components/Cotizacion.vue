@@ -48,7 +48,7 @@
         <h3>Respuestas : </h3>
         <ul>
             <li>1:c</li>
-            <li>2:a</li>
+            <li>2:b</li>
             <li>3:c</li>
             <li>4:a</li>
             <li>5:b</li>
