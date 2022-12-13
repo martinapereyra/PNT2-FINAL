@@ -110,13 +110,13 @@
     },
     computed: {
         convertirDolar(){
-            let total = this.formData.dolar * this.formData.monto;
+            let total =  this.formData.monto / this.formData.dolar;
             return total;
         },
         
         convertirDolarApi(){
-           let total = parseInt(this.valorDolarActual) * this.formData.monto
-           return total
+           let total =  this.formData.monto / parseInt(this.valorDolarActual)
+           return total.toFixed(1)
         },
 
 
